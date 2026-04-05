@@ -20,7 +20,7 @@ spec:
           image: mysql:8.0
           env:
             - name: MYSQL_ROOT_PASSWORD
-              value: ""
+              value: "password123"
             - name: MYSQL_DATABASE
               value: "springdb"
           ports:
